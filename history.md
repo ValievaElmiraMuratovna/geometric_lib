@@ -20,5 +20,5 @@
 * git rebase --continue
 * git checkout main
 * git merge release --ff
-
+* git push --all git@github.com:ValievaElmiraMuratovna/geometric_lib.git
 * ssh-keygen -t rsa -b 4096 -C 'el.gumerowa6@yandex.ru'
