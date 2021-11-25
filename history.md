@@ -1,20 +1,24 @@
-cd Desktop/
-git clone https://github.com/smartiqaorg/geometric_lib
-cd geometric_lib
-git checkout develop
-git checkout release
-git log --all --pretty=oneline --graph
+# “Отчет о проделанной работе”
+### “Автор: Валиева Эльмира”
+[Ссылка на репозиторий с уроком про животных](https://github.com/ValievaElmiraMuratovna/wild_animals)
 
-git checkout main
-git merge develop --no-ff
-git reset --hard HEAD^
-git merge develop --ff
+#### “Ход работы”
 
-git checkout release
-git rebase -i main
-git mergetool
-git rebase --continue
-git checkout main
-git merge release --ff
+* cd Desktop/
+* git clone https://github.com/smartiqaorg/geometric_lib
+* cd geometric_lib
+* git checkout develop
+* git checkout release
+* git log --all --pretty=oneline --graph
+* git checkout main
+* git merge develop --no-ff
+* git reset --hard HEAD^
+* git merge develop --ff
+* git checkout release
+* git rebase -i main
+* git mergetool
+* git rebase --continue
+* git checkout main
+* git merge release --ff
 
-ssh-keygen -t rsa -b 4096 -C 'el.gumerowa6@yandex.ru'
+* ssh-keygen -t rsa -b 4096 -C 'el.gumerowa6@yandex.ru'
